@@ -13,3 +13,17 @@ def save_participant(path, participant_dict):
             f.write("Name, Age, Phone, Track\n")
             writer = csv.writer(f)
             writer.writerow(participant_dict.values())
+
+def load_participant(path):
+    with open(path, "r", encoding="utf-8") as f:
+        participants = []
+        reader = csv.reader(f)
+        for row_number, row in enumerate(reader):
+            if row_number == 0:
+                print(f"Headers: {"\t|".join(row)}")
+                print("-"*60)
+            else:
+                name, age, phone, track = row 
+                print(f"{name} \t| {age} \t| {phone} \t| {track}")
+
+    return participants
