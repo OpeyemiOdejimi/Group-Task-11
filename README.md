@@ -1,4 +1,4 @@
-# Group Task 11 – Contacat Saver
+# Group Task 11 – Contact Saver
 ## Project Overview
 You are running a short tech workshop and need a simple program to collect participant details: name, age, phone, and track. 
 These details should be saved into a CSV file so organizers can follow up later.
@@ -46,3 +46,4 @@ Group-Task-11/
 ---
 ## License
 This project is for educational purposes as part of the AI Engineering Training Group Task.
+
